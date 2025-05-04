@@ -20,8 +20,7 @@
     .rarity { font-weight: bold; }
     .tracker-btn { margin-top: 10px; display: inline-block; padding: 4px 10px; font-size: 14px; background: #333; border: 1px solid #555; cursor: pointer; }
     .tracker-btn:hover { background: #444; }
-  </style>
-    .sidebar {
+  .sidebar {
       position: fixed;
       left: 0;
       top: 0;
@@ -123,7 +122,6 @@
 
   function removeFromTracker(name) {
     tracker = tracker.filter(n => n !== name);
-    localStorage.setItem('arcTracker', JSON.stringify(tracker));
     renderTracker();
   }
 
