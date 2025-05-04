@@ -1,81 +1,1453 @@
 [
   {
     "name": "Faded Photograph",
-    "category": "valuables",
+    "category": "uncategorized",
     "rarity": "gray",
-    "sellPrice": 640,
-    "components": [],
+    "sellPrice": null,
+    "components": [
+      "$640"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Portable Television",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$1k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Deflated Football",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$1k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Empty Wine Bottle",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$1k"
+    ],
     "bench": null
   },
   {
     "name": "Rubber Ducky",
-    "category": "valuables",
+    "category": "uncategorized",
     "rarity": "gray",
-    "sellPrice": 1000,
-    "components": [],
+    "sellPrice": null,
+    "components": [
+      "$1k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Cat Bed",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$1k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Bloated Tuna Can",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$1k"
+    ],
     "bench": null
   },
   {
     "name": "Very Comfortable Pillow",
-    "category": "valuables",
+    "category": "uncategorized",
     "rarity": "gray",
-    "sellPrice": 2000,
-    "components": [],
+    "sellPrice": null,
+    "components": [
+      "$2k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Film Reel",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$2k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Air Freshener",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$2k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Poster of Natural Wonder",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Light Bulb",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$2k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Coffee Pot",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$2k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Statuette",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$3k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Silver Teaspoon Set",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$3k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Music Album",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$3k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Watch",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "3k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Music Box",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$5k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Red Coral Jewelry",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$5k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Playing Cards",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$5k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Snow Globe",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "$7k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Vase",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "?"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Pottery",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "?"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Dart Board",
+    "category": "uncategorized",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "?"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Light ammo",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Metal Parts - Sold by Tian Wen 25x $900"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Medium ammo",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Metal Parts",
+      "2x Chemicals - Sold by Tian Wen 20x $1200"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Shotgun ammo",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Metal Parts",
+      "2x Chemicals - Sold by Tian Wen 5x $1200"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Heavy ammo",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "5x Metal Parts",
+      "2x Chemicals - Sold By Tian Wen 10x $1500"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Energy ammo",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - (recipe? Or uncraftable?) - Sold By Tian Wen 25x $1000"
+    ],
     "bench": null
   },
   {
     "name": "Raider Augment I",
     "category": "augments",
-    "rarity": "green",
+    "rarity": "gray",
     "sellPrice": null,
     "components": [
       "12x Rubber Parts",
       "9x Plastic Parts"
     ],
-    "bench": 1
+    "bench": null
   },
   {
     "name": "Raider Augment II",
     "category": "augments",
-    "rarity": "green",
+    "rarity": "gray",
     "sellPrice": null,
     "components": [
       "20x Rubber Parts",
       "2x Processor"
     ],
-    "bench": 2
+    "bench": null
+  },
+  {
+    "name": "Radier Augment III",
+    "category": "augments",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Electrical Components",
+      "2x Processor"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Raider Augment IV",
+    "category": "augments",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Power Rod",
+      "4x Processor"
+    ],
+    "bench": null
   },
   {
     "name": "Light Shield",
     "category": "shields",
-    "rarity": "blue",
-    "sellPrice": 2000,
+    "rarity": "gray",
+    "sellPrice": null,
     "components": [
       "1x ARC Alloy",
-      "8x Fabric"
+      "8x Fabric - Sold by Lance $2k"
     ],
-    "bench": 1
+    "bench": null
   },
   {
     "name": "Medium Shield",
     "category": "shields",
-    "rarity": "blue",
-    "sellPrice": 6000,
+    "rarity": "gray",
+    "sellPrice": null,
     "components": [
       "4x ARC Alloy",
-      "2x Voltage Converter"
+      "2x Voltage Converter - Sold by Lance $6k"
     ],
-    "bench": 2
+    "bench": null
   },
   {
     "name": "Heavy Shield",
     "category": "shields",
-    "rarity": "purple",
-    "sellPrice": 15000,
+    "rarity": "gray",
+    "sellPrice": null,
     "components": [
       "10x ARC Alloy",
-      "5x Voltage Converter"
+      "5x Voltage Converter - Sold by Lance $15k"
     ],
-    "bench": 3
+    "bench": null
+  },
+  {
+    "name": "Bandage",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Fabric - Sold by Lance for $810"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Herbal Bandage",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "8x Fabric",
+      "1x Torch Ginger"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Shield Charge",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "5x Metal Parts",
+      "1x Battery - Sold by Lance $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Adrenaline Shot",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "3x Chemicals",
+      "2x Plastic Parts - Sold by Lance $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Sterilized Bandage",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "12x Fabric",
+      "1x Antiseptic - Recipe Locked - Sold By Lance $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Vita Shot",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Antiseptic",
+      "1x Syringe - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Vita Spray",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Antiseptic",
+      "4x Canister - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Defibrillator",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "3x Plastic Parts",
+      "1x Moss - Recipe Locked - Sold by Lance $1280"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Bandage",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "8x Fabric"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Herbal Bandage",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Fabric",
+      "1x Random Plant (Roots/Moss/Agave/Torch Ginger)"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Agave Juice",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Agave",
+      "1x Empty Wine Bottle"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Fruit Mix",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Lemon",
+      "1x Apricot",
+      "1x Prickly Pear"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Adrenaline Shot",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Plastic Parts",
+      "6x Chemicals"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Shield Recharger",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Battery",
+      "10x Metal Parts"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Light Impact Grenade",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Plastic Parts",
+      "6x Chemicals"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Smoke Grenade",
+    "category": "medical",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Canister",
+      "14x Chemicals"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Light Impact Grenade",
+    "category": "explosives",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Plastic Parts",
+      "3x Chemicals - Sold by Apollo $810"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Gas Grenade",
+    "category": "explosives",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Chemicals",
+      "2x Rubber Parts - Sold by Apollo $810"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Heavy Fuze Grenade",
+    "category": "explosives",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? (recipe? Or uncraftable?) - Sold by Apollo $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Snap Blast Grenade",
+    "category": "explosives",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "7x Chemicals",
+      "1x Magnet - Sold by Apollo $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Blaze Grenade",
+    "category": "explosives",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Oil",
+      "7x Metal Parts"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Jump Mine",
+    "category": "explosives",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Explosive Mixture",
+      "2x Sensors - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Showstopper",
+    "category": "explosives",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Mastery Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Wolfpack",
+    "category": "explosives",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Mastery Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Binoculars",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "8x Plastic Parts",
+      "4x Rubber Parts - Sold by Apollo $1280"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Door Blocker",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "3x Metal Parts",
+      "2x Rubber Parts - Recipe Locked - Sold by Apollo $810"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Smoke Grenade",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "7x Chemicals",
+      "1x Canister - Sold by Apollo $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Barricade Kit",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "5x Metal Parts",
+      "1x Steel Spring - Recipe Locked - Sold by Apollo $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Remote Raider Flare",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Chemicals",
+      "4x Rubber Parts - Sold by Apollo $810"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Zipline",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Rope",
+      "7x Metal Parts - Sold By Apollo $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Lure Grenade",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Speaker Component",
+      "2x Plastic Parts - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Tagging Grenade",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Plastic Parts",
+      "2x Sensors - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Photoelectric Cloak",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Advanced Electrical Components",
+      "3x Speaker Components"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Snap Hook",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Mastery Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Raider Hatch Key",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Recipe Locked - Sold by Shani $6k"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Jolt Mine",
+    "category": "utility",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - (recipe? Or uncraftable?) - Sold by Apollo $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Vertical Grip I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Plastic Parts",
+      "1x Duct Tape - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Angled Grip I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Plastic Parts",
+      "1x Duct Tape - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Stable Stock I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "7x Rubber Parts",
+      "1x Duct Tape - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Muzzle Brake I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Metal Parts",
+      "1x Wires - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Compensator I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Metal Parts",
+      "1x Wires - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Shotgun Choke I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Metal Parts",
+      "1x Wires - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Light Mag I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Plastic Parts",
+      "1x Steel Spring - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Medium Mag I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Plastic Parts",
+      "1x Steel Spring - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Shotgun Mag I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Plastic Parts",
+      "1x Steel Spring - Sold by Tian Wen $1920"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Vertical Grip II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Angled Grip II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Stable Stock II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Components",
+      "1x Duct Tape - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Muzzle Brake II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Components",
+      "1x Wires - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Compensator II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Silencer I",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Components",
+      "1x Wires - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Shotgun Choke II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Components",
+      "1x Wires - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Light Mag II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Components",
+      "1x Steel Spring - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Medium Mag II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Shotgun Mag II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Components",
+      "1x Steel Spring - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Vertical Grip III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "6x Duct Tape - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Angled Grip III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Stable Stock III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "6x Duct Tape - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Lightweight Stock",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "6x Duct Tape - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Padded Stock",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "6x Duct Tape - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Silencer II",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "9x Wires - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Silencer III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - (Recipe? Or uncraftable?)"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Shotgun Choke III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "9x Wires - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Shotgun Silencer",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "9x Wires - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Light Mag III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "6x Steel Spring - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Medium Mag III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "6x Steel Spring - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Extended Shotgun Mag III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mod Components",
+      "6x Steel Spring - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Muzzle Brake III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - (recipe? Or Uncraftable? Or non-existent?)"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Compensator III",
+    "category": "mods",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - (recipe? Or uncraftable? Or non-existent?)"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Kettle I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "4x Metal Parts",
+      "9x Plastic Parts - Sold by Tian Wen $3k - Light Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Hairpin I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Metal Parts",
+      "5x Plastics Parts - Sold by Tian Wen $1920 - Light Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Stitcher I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "6x Metal Parts",
+      "7x Rubber Parts - Sold by Tian Wen $3k - Light Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Rattler I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "10x Metal Parts",
+      "5x Rubber Parts - Medium Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Ferro I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "3x Metal Parts",
+      "5x Rubber Parts - Sold by Tian Wen $1920 - Heavy Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Burletta I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "15x Metal Parts",
+      "3x Duct Tape - Recipe Locked - Sold By Tian Wen 6k - Light Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Arpeggio I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Components",
+      "3x Magnet - Recipe Locked - Medium Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Il Toro I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Component",
+      "3x Canister - Recipe Locked - Sold by Tian Wen $9k - Shotgun Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Anvil I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Mechanical Components",
+      "3x Oil - Recipe Locked - Sold by Tian Wen $9k - Heavy Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Venator I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Advanced Mechanical Components",
+      "4x Magnet - Recipe Locked - Medium Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Torrente I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Mechanical Components",
+      "4x Steel Spring - Recipe Locked - Medium Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Renegade I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Advanced Mechanical Components",
+      "4x Oil - Recipe Locked - Sold By Tian Wen $21k - Medium Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Osprey I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Mechanical Components",
+      "4x Oil - Recipe Locked - Medium Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Vulcano I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "3x Advanced Mechanical Components",
+      "4x Canister - Shotgun Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Bobcat I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Mastery Locked - Light Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Tempest I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Mastery Locked - Medium Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Jupiter I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "8x Power Rod",
+      "20x Processors - Recipe Locked - Heavy Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Equalizer I",
+    "category": "ammo",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "8x Power Rod",
+      "20x Voltage Converters - Recipe Locked - Energy Ammo"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Antiseptic",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "14x Chemicals",
+      "1x Torch Ginger"
+    ],
+    "bench": null
+  },
+  {
+    "name": "ARC Motion Core",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "5x ARC Alloy"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Electrical Components",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "20x Plastic Parts",
+      "4x Wires"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Explosive Mixture",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x Oil",
+      "14x Chemicals"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Mechanical Components",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "15x Metal Parts",
+      "3x Steel Spring"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Light Gun Parts",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "??? - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Medium Gun Parts",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Simple Gun Parts",
+      "8x Rubber Parts - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Shotgun Gun Parts",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Simple Gun Parts",
+      "8x Rubber Parts - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Heavy Gun Parts",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "2x Simple Gun Parts",
+      "8x Rubber Parts - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Advanced Electrical Components",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x ARC Circuitry",
+      "1x Electrical Components - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Advanced Mechanical Components",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x ARC Motion Core",
+      "1x Mechanical Components - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Mod Components",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x ARC Motion Core",
+      "1x Mechanical Components - Recipe Locked"
+    ],
+    "bench": null
+  },
+  {
+    "name": "Power Rod",
+    "category": "refinement",
+    "rarity": "gray",
+    "sellPrice": null,
+    "components": [
+      "1x ARC Circuitry",
+      "1x Electrical Components - Recipe Locked"
+    ],
+    "bench": null
   }
 ]
