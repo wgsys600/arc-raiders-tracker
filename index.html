@@ -21,8 +21,29 @@
     .tracker-btn { margin-top: 10px; display: inline-block; padding: 4px 10px; font-size: 14px; background: #333; border: 1px solid #555; cursor: pointer; }
     .tracker-btn:hover { background: #444; }
   </style>
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 250px;
+      height: 100vh;
+      background: #1c1c1c;
+      border-right: 2px solid #333;
+      padding: 20px;
+      overflow-y: auto;
+    }
+    .main-content {
+      margin-left: 250px;
+    }
+  </style>
 </head>
 <body>
+  <div class="sidebar">
+    <h2>📋 Tracker</h2>
+    <ul id="trackerList" style="list-style: none; padding-left: 0;"></ul>
+    <button onclick="clearTracker()">Clear Tracker</button>
+  </div>
+  <div class="main-content">
   <header>
     <h1>ARC Raiders Loot & Crafting Tracker</h1>
     <input type="text" id="searchInput" placeholder="Search items...">
@@ -71,6 +92,11 @@
           ${item.bench ? `<div>Bench Level: ${item.bench}</div>` : ''}
           <div class="components">${item.components?.join('<br>') || ''}</div>
         `;
+        const button = document.createElement('button');
+        button.className = 'tracker-btn';
+        button.textContent = 'Track';
+        button.onclick = () => addToTracker(item.name);
+        div.appendChild(button);
         container.appendChild(div);
       });
   }
@@ -84,5 +110,40 @@
   });
 </script>
 
+  </div>
+  <script>
+  let tracker = [];
+
+  function addToTracker(name) {
+    if (!tracker.includes(name)) {
+      tracker.push(name);
+      renderTracker();
+    }
+  }
+
+  function removeFromTracker(name) {
+    tracker = tracker.filter(n => n !== name);
+    localStorage.setItem('arcTracker', JSON.stringify(tracker));
+    renderTracker();
+  }
+
+  function clearTracker() {
+    tracker = [];
+    renderTracker();
+  }
+
+  function renderTracker() {
+    const list = document.getElementById('trackerList');
+    if (!list) return;
+    list.innerHTML = '';
+    tracker.forEach(name => {
+      const li = document.createElement('li');
+      li.innerHTML = `${name} <button onclick="removeFromTracker('${name}')">✖</button>`;
+      list.appendChild(li);
+    });
+  }
+
+  renderTracker();
+  </script>
 </body>
 </html>
