@@ -51,7 +51,7 @@
       .then(res => res.json())
       .then(data => {
         items = data;
-        // renderItems();
+        renderItems();
 
 function renderTracker() {
   const list = document.getElementById('trackerList');
@@ -86,7 +86,7 @@ renderTracker(); // now called after items.json loads
             ${item.sellPrice ? `<div>Sell: $${item.sellPrice}</div>` : ''}
             ${item.bench ? `<div>Bench Level: ${item.bench}</div>` : ''}
             <div class="components">${item.components?.join('<br>') || ''}</div>
-            <div class="tracker-btn" onclick="toggleTrack('${item.name}')">Add to Tracker</div>
+            <div class="tracker-btn" onclick="toggleTrack(\'${item.name}\')">Add to Tracker</div>
           `;
           container.appendChild(div);
         });
