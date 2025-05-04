@@ -52,6 +52,7 @@
       .then(data => {
         items = data;
         renderItems();
+      renderTracker();
 
 function renderTracker() {
   const list = document.getElementById('trackerList');
@@ -106,7 +107,7 @@ renderTracker(); // now called after items.json loads
   else tracker = tracker.filter(n => n !== name);
   localStorage.setItem('arcTracker', JSON.stringify(tracker));
   renderTracker();
-}`); // Placeholder action
+}
     }
 
     renderItems();
