@@ -45,7 +45,14 @@
   </div>
 
   <script>
-    const items = []; // Load parsed JSON from future external file or embed manually
+    let items = [];
+
+    fetch('items.json')
+      .then(res => res.json())
+      .then(data => {
+        items = data;
+        // renderItems(); // now called after items.json loads
+      });
 
     function renderItems(filter = '', category = 'all') {
       const container = document.getElementById('itemsContainer');
