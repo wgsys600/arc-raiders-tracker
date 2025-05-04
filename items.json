@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Faded Photograph",
+    "category": "valuables",
+    "rarity": "gray",
+    "sellPrice": 640,
+    "components": [],
+    "bench": null
+  },
+  {
+    "name": "Rubber Ducky",
+    "category": "valuables",
+    "rarity": "gray",
+    "sellPrice": 1000,
+    "components": [],
+    "bench": null
+  },
+  {
+    "name": "Very Comfortable Pillow",
+    "category": "valuables",
+    "rarity": "gray",
+    "sellPrice": 2000,
+    "components": [],
+    "bench": null
+  },
+  {
+    "name": "Raider Augment I",
+    "category": "augments",
+    "rarity": "green",
+    "sellPrice": null,
+    "components": [
+      "12x Rubber Parts",
+      "9x Plastic Parts"
+    ],
+    "bench": 1
+  },
+  {
+    "name": "Raider Augment II",
+    "category": "augments",
+    "rarity": "green",
+    "sellPrice": null,
+    "components": [
+      "20x Rubber Parts",
+      "2x Processor"
+    ],
+    "bench": 2
+  },
+  {
+    "name": "Light Shield",
+    "category": "shields",
+    "rarity": "blue",
+    "sellPrice": 2000,
+    "components": [
+      "1x ARC Alloy",
+      "8x Fabric"
+    ],
+    "bench": 1
+  },
+  {
+    "name": "Medium Shield",
+    "category": "shields",
+    "rarity": "blue",
+    "sellPrice": 6000,
+    "components": [
+      "4x ARC Alloy",
+      "2x Voltage Converter"
+    ],
+    "bench": 2
+  },
+  {
+    "name": "Heavy Shield",
+    "category": "shields",
+    "rarity": "purple",
+    "sellPrice": 15000,
+    "components": [
+      "10x ARC Alloy",
+      "5x Voltage Converter"
+    ],
+    "bench": 3
+  }
+]
