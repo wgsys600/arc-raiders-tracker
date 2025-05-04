@@ -5,118 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ARC Raiders Loot & Crafting Tracker</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #111; color: #eee; display: flex; }
-    header { background: #222; padding: 20px; text-align: center; width: 100%; }
-    main { flex: 1; padding: 20px; }
-    aside { width: 300px; background: #1c1c1c; padding: 20px; border-left: 2px solid #333; overflow-y: auto; height: 100vh; position: sticky; top: 0; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #111; color: #eee; }
+    header { background: #222; padding: 20px; text-align: center; }
     select, input[type="text"] { margin: 10px; padding: 8px; font-size: 16px; }
-    .container { display: flex; flex-wrap: wrap; gap: 10px; }
-    .item { background: #2a2a2a; border-radius: 6px; padding: 12px; width: 280px; }
+    .container { display: flex; flex-wrap: wrap; padding: 20px; gap: 10px; justify-content: center; }
+    .item { background: #1c1c1c; border-radius: 6px; padding: 12px; width: 300px; }
     .gray { color: #999; }
     .green { color: #66ff66; }
     .blue { color: #66ccff; }
     .purple { color: #cc66ff; }
     .gold { color: gold; }
+    .category { margin-top: 30px; padding: 10px; font-size: 1.2em; font-weight: bold; border-bottom: 1px solid #444; }
     .components { font-size: 0.9em; color: #ccc; margin-top: 8px; }
+    .rarity { font-weight: bold; }
     .tracker-btn { margin-top: 10px; display: inline-block; padding: 4px 10px; font-size: 14px; background: #333; border: 1px solid #555; cursor: pointer; }
     .tracker-btn:hover { background: #444; }
   </style>
 </head>
 <body>
-  <main>
-    <header>
-      <h1>ARC Raiders Loot & Crafting Tracker</h1>
-      <input type="text" id="searchInput" placeholder="Search items...">
-      <select id="categorySelect">
-        <option value="all">All Categories</option>
-        <option value="ammo">Ammo</option>
-        <option value="augments">Augments</option>
-        <option value="shields">Shields</option>
-        <option value="medical">Medical</option>
-        <option value="explosives">Explosives</option>
-        <option value="utility">Utility</option>
-        <option value="mods">Mods</option>
-        <option value="weapons">Weapons</option>
-        <option value="refinement">Refinement</option>
-        <option value="valuables">Valuables</option>
-      </select>
-    </header>
-    <div class="container" id="itemsContainer"></div>
-  </main>
-  <aside>
-    <h2>📋 Tracker</h2>
-    <ul id="trackerList" style="list-style: none; padding-left: 0;"></ul>
-    <button onclick="clearTracker()">Clear Tracker</button>
-  </aside>
+  <header>
+    <h1>ARC Raiders Loot & Crafting Tracker</h1>
+    <input type="text" id="searchInput" placeholder="Search items...">
+    <select id="categorySelect">
+      <option value="all">All Categories</option>
+      <option value="ammo">Ammo</option>
+      <option value="augments">Augments</option>
+      <option value="shields">Shields</option>
+      <option value="medical">Medical</option>
+      <option value="explosives">Explosives</option>
+      <option value="utility">Utility</option>
+      <option value="mods">Mods</option>
+      <option value="weapons">Weapons</option>
+      <option value="refinement">Refinement</option>
+      <option value="valuables">Valuables</option>
+    </select>
+  </header>
+  <div class="container" id="itemsContainer">
+    <!-- JS will populate items here -->
+  </div>
 
   <script>
-    let items = [];
-    let tracker = JSON.parse(localStorage.getItem('arcTracker') || '[]');
-
-    fetch('items.json')
-      .then(res => res.json())
-      .then(data => {
-        items = data;
-        renderItems();
-        renderTracker();
-      });
+    const items = []; // Load parsed JSON from future external file or embed manually
 
     function renderItems(filter = '', category = 'all') {
       const container = document.getElementById('itemsContainer');
       container.innerHTML = '';
       items
-        .filter(i => i.name.toLowerCase().includes(filter.toLowerCase()) && (category === 'all' || i.category === category))
+        .filter(item => item.name.toLowerCase().includes(filter.toLowerCase()) && (category === 'all' || item.category === category))
         .forEach(item => {
           const div = document.createElement('div');
           div.className = `item ${item.rarity || 'gray'}`;
-          div.innerHTML = \`
-            <div><strong>\${item.name}</strong></div>
-            \${item.sellPrice ? `<div>Sell: \$\${item.sellPrice}</div>` : ''}
-            \${item.bench ? `<div>Bench Level: \${item.bench}</div>` : ''}
-            <div class="components">\${item.components?.join('<br>') || ''}</div>
-            <div class="tracker-btn" onclick="addToTracker('\${item.name}')">Track</div>
-          \`;
+          div.innerHTML = `
+            <div class="rarity">${item.name}</div>
+            ${item.sellPrice ? `<div>Sell: $${item.sellPrice}</div>` : ''}
+            ${item.bench ? `<div>Bench Level: ${item.bench}</div>` : ''}
+            <div class="components">${item.components?.join('<br>') || ''}</div>
+            <div class="tracker-btn" onclick="toggleTrack('${item.name}')">Add to Tracker</div>
+          `;
           container.appendChild(div);
         });
     }
 
-    function renderTracker() {
-      const list = document.getElementById('trackerList');
-      list.innerHTML = '';
-      tracker.forEach(name => {
-        const li = document.createElement('li');
-        li.innerHTML = \`\${name} <button onclick="removeFromTracker('\${name}')">✖</button>\`;
-        list.appendChild(li);
-      });
-    }
-
-    function addToTracker(name) {
-      if (!tracker.includes(name)) {
-        tracker.push(name);
-        localStorage.setItem('arcTracker', JSON.stringify(tracker));
-        renderTracker();
-      }
-    }
-
-    function removeFromTracker(name) {
-      tracker = tracker.filter(n => n !== name);
-      localStorage.setItem('arcTracker', JSON.stringify(tracker));
-      renderTracker();
-    }
-
-    function clearTracker() {
-      tracker = [];
-      localStorage.removeItem('arcTracker');
-      renderTracker();
-    }
-
-    document.getElementById('searchInput').addEventListener('input', e => {
+    document.getElementById('searchInput').addEventListener('input', (e) => {
       renderItems(e.target.value, document.getElementById('categorySelect').value);
     });
 
-    document.getElementById('categorySelect').addEventListener('change', e => {
+    document.getElementById('categorySelect').addEventListener('change', (e) => {
       renderItems(document.getElementById('searchInput').value, e.target.value);
     });
+
+    function toggleTrack(name) {
+      alert(`Tracking: ${name}`); // Placeholder action
+    }
+
+    renderItems();
   </script>
 </body>
 </html>
