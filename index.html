@@ -54,24 +54,14 @@
         renderItems();
         renderTracker();
 
-function renderTracker() {
-  const list = document.getElementById('trackerList');
-  if (!list) return;
-  const tracker = JSON.parse(localStorage.getItem('arcTracker') || '[]');
-  list.innerHTML = '';
-  tracker.forEach(name => {
-    const li = document.createElement('li');
-    li.innerHTML = `${name} <button onclick=\"toggleTrack('${name}')\">✖</button>`;
+ <button onclick=\"toggleTrack('${name}')\">✖</button>`;
     list.appendChild(li);
   });
 }
 
-function clearTracker() {
-  localStorage.removeItem('arcTracker');
-  renderTracker();
-}
 
-renderTracker(); // now called after items.json loads
+
+
       });
 
     function renderItems(filter = '', category = 'all') {
@@ -101,20 +91,10 @@ renderTracker(); // now called after items.json loads
       renderItems(document.getElementById('searchInput').value, e.target.value);
     });
 
-    function toggleTrack(name) {
-  let tracker = JSON.parse(localStorage.getItem('arcTracker') || '[]');
-  if (!tracker.includes(name)) tracker.push(name);
-  else tracker = tracker.filter(n => n !== name);
-  localStorage.setItem('arcTracker', JSON.stringify(tracker));
-  renderTracker();
-}
+    
     }
 
     </script>
-<div style="background:#1c1c1c; padding:20px; margin-top:20px;">
-  <h2>📋 Tracker</h2>
-  <ul id="trackerList" style="list-style:none; padding-left:0;"></ul>
-  <button onclick="clearTracker()">Clear Tracker</button>
-</div>
+
 </body>
 </html>
